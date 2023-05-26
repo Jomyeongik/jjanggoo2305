@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>연습문제 2</title>
+        <style>
+            body {
+                text-align: center;
+            }
+
+            p {
+                color: red;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>3의 배수 찾기</h2>
+        <script>
+            var inputNumber = parseInt(prompt("숫자를 입력하세요.", "100"));
+            var count = 0;
+            // for(var i = 1; i <= inputNumber; i++){
+            //     if(i % 3 == 0){
+            //         //count = count + 1;
+            //         //단항연산자
+            //         count ++;
+            //     }
+            // }
+
+            // for(var i = 1; i <= inputNumber; i++){
+            //     if(i % 3 == 0){
+            //         if(i !== count * 3){
+            //             document.write(i + ", ");
+            //         }else{
+            //             document.write(i);
+            //         }
+            //     }   
+            // }
+            if(inputNumber !== null){
+                for(var i = 1; i <= inputNumber; i++){
+                    if(i % 3 == 0){
+                        //count = count + 1;
+                        //단항연산자
+                        count ++;
+                        if(parseInt((inputNumber/3)) != count) {
+                            document.write(i + ", ");
+                        }else {
+                            document.write(i);
+                        }
+                    }
+                }
+            }
+
+
+
+
+            document.write("<br><br>");
+            document.write("<p>" + inputNumber + "까지 3의 배수의 갯수 : " + count + "</p>");
+            
+        </script>
+    </body>
+</html>
