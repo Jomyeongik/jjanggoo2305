@@ -1,0 +1,32 @@
+#header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+#main {
+    height: 500px;
+    background-color: aqua;
+}
+    #main-layer1 {
+        height: 100%;
+        width: 15%;
+        float: left;
+        background-color: blue;
+    }
+    #main-layer2 {
+        height: 100%;
+        width: 65%;
+        float: left;
+        background-color: red;
+    }
+    #main-layer3 {
+        height: 100%;
+        width: 20%;
+        float: left;
+        background-color: green;
+    }
+#footer {
+    height: 100px;
+    width: 100%;
+    background-color: bisque;
+}

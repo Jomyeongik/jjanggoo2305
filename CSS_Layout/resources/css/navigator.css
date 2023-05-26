@@ -1,0 +1,53 @@
+#header {
+    height: 100px;
+    width: 100%;
+}
+    #header-layer1 {
+        height: inherit;
+        width: 20%;
+        float: left;
+        background-color: darkgrey;
+    }
+    #header-layer2 {
+        height: inherit;
+        width: 55%;
+        float: left;
+        background-color: darkcyan;
+    }
+    #header-layer3 {
+        height: inherit;
+        width: 25%;
+        float: left;
+        background-color: darkgoldenrod;
+    }
+#navigator{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+}
+    #main {
+    height: 500px;
+}
+    #main-layer1 {
+        height: inherit;
+        width: 15%;
+        float: left;
+        background-color: blue;
+    }
+    #main-layer2 {
+        height: inherit;
+        width: 65%;
+        float: left;
+        background-color: red;
+    }
+    #main-layer3 {
+        height: inherit;
+        width: 20%;
+        float: left;
+        background-color: green;
+    }
+#footer {
+    height: 100px;
+    width: 100%;
+    background-color: bisque;
+}
